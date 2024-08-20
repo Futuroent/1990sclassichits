@@ -11,17 +11,19 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
-    { name = "seaborn" },
+    { name = "seaborn" }
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "ipykernel" },
-    { name = "jupyter" },
-    { name = "matplotlib" },
-    { name = "numpy" },
-    { name = "pandas" },
-    { name = "seaborn" },
+    { name = "ipykernel", specifier = ">=6.29.5" },
+    { name = "jupyter", specifier = ">=1.0.0" },
+    { name = "lib" },
+    { name = "matplot" },
+    { name = "matplotlib", specifier = ">=3.9.2" },
+    { name = "numpy", specifier = ">=2.1.0" },
+    { name = "pandas", specifier = ">=2.2.2" },
+    { name = "seaborn", specifier = ">=0.13.2" }
 ]
 
 [[package]]
@@ -265,6 +267,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "cycler"
 version = "0.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -305,6 +308,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "executing"
 version = "2.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -396,6 +400,8 @@ wheels = [
 ]
 
 [[package]]
+
+
 name = "ipykernel"
 version = "6.29.5"
 source = { registry = "https://pypi.org/simple" }
@@ -468,6 +474,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "jedi"
 version = "0.19.1"
 source = { registry = "https://pypi.org/simple" }
@@ -480,6 +487,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "jinja2"
 version = "3.1.4"
 source = { registry = "https://pypi.org/simple" }
@@ -748,6 +756,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "kiwisolver"
 version = "1.4.5"
 source = { registry = "https://pypi.org/simple" }
@@ -771,6 +780,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "markupsafe"
 version = "2.1.5"
 source = { registry = "https://pypi.org/simple" }
@@ -789,6 +799,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "matplotlib"
 version = "3.9.2"
 source = { registry = "https://pypi.org/simple" }
@@ -837,6 +848,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "mistune"
 version = "3.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -846,6 +858,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "nbclient"
 version = "0.10.0"
 source = { registry = "https://pypi.org/simple" }
@@ -911,6 +924,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "notebook"
 version = "7.2.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1074,6 +1088,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "platformdirs"
 version = "4.2.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1157,6 +1172,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "pyparsing"
 version = "3.1.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1206,6 +1222,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "pywinpty"
 version = "2.0.13"
 source = { registry = "https://pypi.org/simple" }
@@ -1316,6 +1333,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "referencing"
 version = "0.35.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1344,6 +1362,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "rfc3339-validator"
 version = "0.1.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1356,6 +1375,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "rfc3986-validator"
 version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1365,6 +1385,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "rpds-py"
 version = "0.20.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1413,6 +1434,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "send2trash"
 version = "1.8.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1431,6 +1453,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "six"
 version = "1.16.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1525,6 +1548,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "types-python-dateutil"
 version = "2.9.0.20240316"
 source = { registry = "https://pypi.org/simple" }
@@ -1534,6 +1558,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "tzdata"
 version = "2024.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1561,6 +1586,7 @@ wheels = [
 ]
 
 [[package]]
+
 name = "wcwidth"
 version = "0.2.13"
 source = { registry = "https://pypi.org/simple" }
@@ -1604,3 +1630,4 @@ sdist = { url = "https://files.pythonhosted.org/packages/52/f4/b261824abd9c9b22d
 wheels = [
     { url = "https://files.pythonhosted.org/packages/93/c1/68423f43bc95d873d745bef8030ecf47cd67f932f20b3f7080a02cff43ca/widgetsnbextension-4.0.11-py3-none-any.whl", hash = "sha256:55d4d6949d100e0d08b94948a42efc3ed6dfdc0e9468b2c4b128c9a2ce3a7a36", size = 2335052 },
 ]
+
