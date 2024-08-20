@@ -10,9 +10,7 @@ dependencies = [
     "matplotlib>=3.9.2",
     "seaborn>=0.13.2",
     "jupyter>=1.0.0",
-    "ipykernel>=6.29.5",
-    "matplot>=0.1.9",
-    "lib>=4.0.0",
+    "ipykernel>=6.29.5"
 ]
 
 [build-system]
