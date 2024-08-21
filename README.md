@@ -110,11 +110,3 @@ Exploring the use of machine learning algorithms to automate the playlist creati
 
 • Continuous Improvement:
 Ongoing efforts to monitor and improve data quality, coupled with regular updates to the playlists, will ensure that they remain relevant and engaging to listeners over time..
-## Solutions for the dataset issues
-...
-
-# Conclussions
-...
-
-# Next steps
-...
